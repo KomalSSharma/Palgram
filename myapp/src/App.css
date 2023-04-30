@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box !important;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  /* padding: 0 2.5rem; */
+
+}
+
+.booking-title{
+  text-align:center;
+  font-size:1.4rem;
+  letter-spacing:2px;
+  line-height:0.6rem;
+  color:white;
+}
+
+.modal-close{
+  /* background-color: rgb(212, 70, 27); */
+  color:yellow;
+  letter-spacing:1px;
+  text-transform: capitalize;;
+  margin-left:90%;
+  text-align:center;
+  /* margin-top:-10px; */
+  
+}
+
+.modal-container{
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color:'#3A98B9';
+  width:38rem;
+  z-index:3000;
+  border-radius:8px;
+  color:white
+}
+
+.input-group{
+  width:90%;
+  height:1.8rem;
+  margin:0 5%;
+  border-radius:2px;
+  padding:4px;
+  border:none;
+  margin-top:0.3rem;
+  color:grey;
+}
+
+.hospital-tital{
+  width:90%;
+  margin:1.3% 5%;
+  font-size:1.1rem;
+  /* margin-bottom:0.3rem; */
+}
+
+.small{
+  height:2.6rem;
+  width:10rem;
+  border-radius:8px;
+  border:none;
+  text-align:center;
+  margin-top:0.4rem;
+  cursor:pointer;
+  text-transform: capitalize;
+  font-weight:600 !important;
+  color:black;
+  letter-spacing:2px;
+  margin-left:5%
+
+}
+
+.small-group{
+  width:91%;
+  margin-left:-4px;
+  border:none;
+  border-radius: 2px;;
+}
+
+.small-group2{
+  width:10%;
+  border:none;
+  border-radius: 2px;
+}
+
+.small-group-span{
+  display:flex;
+  width:90%;
+  margin:0 5%;
+  height:1.8rem;
+  padding:0;
+  margin-top:0.3rem;
+
+}
+
+.booking-title{
+  margin-bottom:2rem;
+}
+
+@media only screen and (max-width: 680px) {
+  /* .small-group-span{
+    
+  } */
+
+  .small{
+    width:8.5rem;
+  }
+
+  .booking-title{
+    font-size: 1.2rem !important;
+    margin-top:1rem;
+    margin-bottom:2rem;;
+  }
+
+  .hospital-tital{
+    font-size:0.9rem;
+  }
+
+  .modal-container{
+    top:2rem !important;
+    margin-right:-43%
+  }
+
+  /* .small-group2{} */
+
+  .input-group{
+    height:2.5rem;
+  }
+
+  .modal-close{
+    margin-left:84%;
+    
+  }
+
+}
+
+.router-link{
+  color:#3A98B9;
+  font-weight:bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .router-link:hover{
+    color:black;
+
+  }
+}
+
