@@ -95,8 +95,9 @@ justify-content:space-between;
   // border:1px solid black;
 
   @media (max-width:768px){
-    display:block;
+    display:inline-block;
     width:100%;
+    text-align:center;
   }
 }
 

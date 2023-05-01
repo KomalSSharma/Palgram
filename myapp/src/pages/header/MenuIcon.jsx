@@ -7,13 +7,13 @@ width:2rem;
 height:2rem;
 position:absolute;
 right:2rem;
-top:2.7rem;
+top:1.7rem;
 display:none;
 z-index:17;
 
 @media (max-width:768px){
 display:flex;
-position:fixed;
+position:absolute;
 flex-flow:column nowrap;
 justify-content:space-around;
 };

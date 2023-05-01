@@ -19,6 +19,7 @@ display:inline-block;
 border:1px solid grey;
 border-radius:6px;
 padding:0.5rem;
+text-align:center;
 
 
 @media (max-width:480px){
