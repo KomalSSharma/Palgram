@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/"
-  to = "https://ramayhospital.netlify.app"
+  from = "/*"
+  to = "/index.html"
   status = 200

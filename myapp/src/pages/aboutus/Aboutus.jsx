@@ -55,7 +55,14 @@ height:20rem;
   min-height:10rem;
   align-items:center;
   justify-content:center;
-  // border:1px solid grey;
+
+
+  // @media (max-width:380px){
+  //   display:inline-block
+  //   width:100%;
+  //   text-align:center;
+    
+  // };
 
   .about-body-card{
     width:18%;
@@ -71,6 +78,12 @@ height:20rem;
     border-radius:7px;
     align-items:center;
     justify-content:center;
+    // @media (max-width:380px){
+    //   display:inline-block
+    //   width:100%;
+    //   text-align:center;
+      
+    // };
   
    
 
