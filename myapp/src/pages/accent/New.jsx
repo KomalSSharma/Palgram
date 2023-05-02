@@ -78,7 +78,7 @@ margin-top:0.4rem;
 
         };
         .title-two{
-            font-size:0.9rem;
+            font-size:0.9rem !important;
             color:black;
             padding-right:1rem !important;
             text-align:center;
@@ -91,7 +91,8 @@ margin-top:0.4rem;
             list-style:none;
             
             .li{
-              font-size:0.9rem !important;
+              // font-size:0.9rem !important;
+              color:black;
             }
         };
     };
