@@ -198,7 +198,7 @@ function DiseaseCard(props) {
         <h3>
           {item.title}
         </h3>
-        <button className="btt-btt"><Link className='button-link' to={'/serviceInfo/' + item.id} >More</Link></button>
+        <button className="btt-btt"><Link className='button-link' to={'/serviceInfo' + item.id} >More</Link></button>
       </div>
     </DiseaseContainer>
   )}

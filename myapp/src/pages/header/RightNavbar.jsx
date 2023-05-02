@@ -86,7 +86,7 @@ function RightNavbar({open , setOpen , openModal}) {
             <li onClick={()=>setOpen(!open)}><Link className='router-link' to='/services'>Services</Link></li>
             <li onClick={()=>setOpen(!open)}><Link className='router-link' to='about'>About</Link></li>
             <li onClick={()=>setOpen(!open)}><Link className='router-link' to='contact'>Contact</Link></li>
-            <li onClick={openModal}><Link className='router-link'>Book Appointment</Link></li>
+            <li onClick={openModal} ><Link onClick={()=>setOpen(!open)} className='router-link'>Book Appointment</Link></li>
         </Ulist>
         
 
