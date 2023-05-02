@@ -18,6 +18,7 @@ margin-bottom:1rem;
     margin-top:0.5rem;
     h4{
         font-style: italic;
+        font-size:1rem;
     }
 }
 `

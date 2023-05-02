@@ -29,8 +29,10 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 
-@media (max-width:768px){
-  display:block;
+@media (max-width:868px){
+  display:inline-block;
+  width:100%;
+  text-align:center;
 }
 
 .disease-card-text-container{
@@ -38,13 +40,17 @@ justify-content:space-between;
   text-align:center;
   width:30%;
   overflow:hidden;
-  font-size:1.1rem;
+  font-size:1rem;
   color:black;
   letter-spacing:1px;
-  @media (max-width:768px){
-    display:block;
+  @media (max-width:868px){
+    display:inline-block;
     width:100%;
-  }
+  };
+
+  // @media (min-width:769px)and (max-width:910px){
+  //   font-size:1rem;
+  // };
   ;
 
 
@@ -94,7 +100,7 @@ justify-content:space-between;
   align-items:center;
   // border:1px solid black;
 
-  @media (max-width:768px){
+  @media (max-width:868px){
     display:inline-block;
     width:100%;
     text-align:center;

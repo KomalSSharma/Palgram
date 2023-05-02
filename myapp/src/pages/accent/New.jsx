@@ -64,7 +64,7 @@ margin-top:0.4rem;
 
     .title-text-container{
         text-align:justify;
-        font-size:1rem;
+        // font-size:1rem;
         display:inline-block;
         width:50%;
         margin-left:0;
@@ -72,21 +72,27 @@ margin-top:0.4rem;
         padding:0 !important;
 
         .title-first{
-            font-size:1.2rem;
+            font-size:1rem;
             margin-bottom:0.4rem;
             font-weight:500;
 
         };
         .title-two{
-            font-size:0.8rem;
+            font-size:0.9rem;
             color:black;
             padding-right:1rem !important;
-            text-align:justify;
+            text-align:center;
             font-weight:400;
+            width:50%;
+            border:1px solid grey;
         };
 
-        ul{
+        .ul{
             list-style:none;
+            
+            .li{
+              font-size:0.9rem !important;
+            }
         };
     };
    
@@ -119,7 +125,7 @@ export default function New(props) {
 
   const firstSliderData=[
     {src:orthopedic,
-        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free. Do following three big excercises to achieve.',
+        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free.',
         heading:'Orthopedic',
     content:{
         list1:'Side Plank',
@@ -135,7 +141,7 @@ export default function New(props) {
         li3:'Quit Smoking'
     }},
     {src:neurology,
-        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free. Do following three big excercises to achieve.',
+        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free.',
         heading:'Neurology',
     content:{
         list1:'Side Plank',
@@ -143,7 +149,7 @@ export default function New(props) {
         li3:'Bird-Dog'
     }},
     {src:cardiology,
-        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free. Do following three big excercises to achieve.',
+        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free.',
         heading:'Cardiology',
     content:{
         list1:'Side Plank',
@@ -151,7 +157,7 @@ export default function New(props) {
         li3:'Bird-Dog'
     }},
     {src:spinal,
-        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free. Do following three big excercises to achieve.',
+        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free.',
         heading:'Spinal',
     content:{
         list1:'Side Plank',
@@ -159,7 +165,7 @@ export default function New(props) {
         li3:'Bird-Dog'
     }},
     {src:orthopedic,
-        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free. Do following three big excercises to achieve.',
+        title:'A strong core can stabilize your spine to help keep your lower back healthy and pain-free.',
         heading:'Orthopedic',
     content:{
         list1:'Side Plank',
@@ -228,10 +234,10 @@ export default function New(props) {
         <div className='title-text-container'>
             <h2 className='title-first'>{item.heading}</h2>
           <h3 className='title-two'>{item.title}</h3>
-          <ul>
-              <li>{item.content.list1}</li>
-              <li>{item.content.li2}</li>
-              <li>{item.content.li3}</li>
+          <ul className="ul">
+              <li classsName='li'>{item.content.list1}</li>
+              <li classsName='li'>{item.content.li2}</li>
+              <li classsName='li'>{item.content.li3}</li>
               </ul></div>
       </div>
         )}          

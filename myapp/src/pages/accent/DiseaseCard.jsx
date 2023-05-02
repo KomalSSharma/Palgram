@@ -11,7 +11,7 @@ import { Link, useParams } from 'react-router-dom'
 
 const DiseaseContainer=styled.div`
 width:20%;
-height:15rem;
+height:14rem;
 margin:0.5rem;
 // padding:0.7rem;
 background-color:#EEEEEE;
@@ -76,8 +76,8 @@ text-align:center;
       
     };
   };
-  button{
-    width: 8rem;
+  .btt-btt{
+    width: 6rem;
     height: 1.8rem;
     color: white;
     // border:1px solid grey;

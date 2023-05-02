@@ -19,7 +19,7 @@ color:white;
 background-color:#3A98B9;
 //grey #EEEEEE;
 // border:1px solid black;
-margin-top:-0.6rem;
+margin-top:0.6rem;
 @media (max-width:640px){
         
 display:inline-block;
